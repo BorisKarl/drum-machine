@@ -1,0 +1,69 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: royalblue;
+}
+
+ h1 {
+    display: flex;
+    font-family: Helvetica;
+    font-style: italic;
+    color: rgb(243, 167, 179);
+    font-weight: 800px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 400px;
+    flex-wrap: wrap;
+    margin-bottom: 0rem;
+    
+}
+
+li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(243, 167, 179);
+    font-size: 160 px;
+    text-decoration: rosybrown;
+    text-align: center;
+}
+
+.keys {
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .key {
+    border: .4rem solid black;
+    border-radius: .5rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    padding: 1rem .5rem;
+    transition: all .07s ease;
+    width: 10rem;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+  }
+  
+  .playing {
+    transform: scale(1.2);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  .sound {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    color: #ffc600;
+  }
+  
