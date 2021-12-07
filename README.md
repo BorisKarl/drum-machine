@@ -1,1 +1,2 @@
-# drum-machine
+This is a drum machine I made with Wes Bos drum machine tutorial, so all credits go to Wes Bos!
+Unfortunatly the remove.playing function is not working and I can't find out why...
